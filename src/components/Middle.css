@@ -1,0 +1,117 @@
+.middle {
+    background-image: url('../assets/BG1.png');
+    background-size: cover; 
+  background-position: center 130%; 
+  color: #ffffff;
+  padding: 90px 40px 220px;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+  height: 40vh;
+  background-color: black;
+  }
+
+  .middle-tag {
+    background-color: rgba(0, 0, 0, 0.095);
+    border:2px solid gray;
+    color: #ffffff;
+    font-size: 0.7rem; 
+    padding: 6px 12px; 
+    border-radius: 15px; 
+    position: absolute;
+    top: 24px;
+    left: 50%;
+    transform: translateX(-50%);
+    letter-spacing: 0.8px; 
+    margin-top: 30px;
+  }
+  
+  .title {
+    font-size: 2.4rem; 
+    font-weight: 600; 
+    margin-top: 48px; 
+    margin-bottom: 36px;
+    line-height: 1.2;
+  }
+  
+  .features {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px 32px; 
+    max-width: 780px; 
+    margin: 0 auto;
+  }
+  
+  .feature {
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 6px; 
+  }
+  
+  .plus-icon {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+    width: 18px; 
+    height: 18px; 
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 8px; 
+    font-size: 0.8rem;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .middle {
+      padding: 70px 20px 90px;
+    }
+  
+    .title {
+      font-size: 1.9rem;
+      margin-top: 36px;
+      margin-bottom: 24px;
+    }
+  
+    .features {
+      gap: 12px 24px;
+    }
+  
+    .feature {
+      font-size: 0.85rem;
+      margin-bottom: 4px;
+    }
+  
+    .middle-tag {
+      font-size: 0.65rem;
+      padding: 5px 10px;
+      top: 18px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .title {
+      font-size: 1.6rem;
+    }
+  
+    .features {
+      flex-direction: column;
+      align-items: center;
+      gap: 8px;
+    }
+  
+    .feature {
+      justify-content: center;
+    }
+  
+    .plus-icon {
+      width: 16px;
+      height: 16px;
+      margin-right: 6px;
+      font-size: 0.7rem;
+    }
+  }
